@@ -94,7 +94,7 @@ module.exports = configure((/* ctx */) => ({
 
     // iconSet: 'material-icons', // Quasar icon set
     // lang: 'en-US', // Quasar language pack
-
+    lang: 'pt-BR',
     // For special cases outside of where the auto-import strategy can have an impact
     // (like functional components as one of the examples),
     // you can manually specify Quasar components/directives to be available everywhere:
@@ -103,12 +103,12 @@ module.exports = configure((/* ctx */) => ({
     // directives: [],
 
     // Quasar plugins
-    plugins: [],
+    plugins: ['Notify', 'Dialog', 'Meta', 'Loading', 'LocalStorage', 'Cookies'],
   },
 
   // animations: 'all', // --- includes all animations
   // https://v2.quasar.dev/options/animations
-  animations: [],
+  animations: 'all',
 
   // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#sourcefiles
   // sourceFiles: {
